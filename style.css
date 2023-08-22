@@ -114,3 +114,39 @@ footer{
     left: 20px;
     bottom: 20px;
 }
+@media (max-width: 1000px){
+        main{
+            flex-wrap: wrap-reverse;
+            justify-content: center;
+            padding: 80px 0px 80px 0px;
+        }
+        .img{
+            margin-top: 50px;
+            text-align: center;
+        }
+        .img img{
+            width: 50%;
+        }
+        .line{
+            width: 80%;
+        }
+        .footer-text{
+            margin-bottom: 30px;
+        }
+        .padlock{display
+            : none;
+        }
+}
+@media (max-width: 600px)
+{
+    header{
+        gap: 30px;
+        flex-direction: column;
+    }
+    .text p{
+        padding: 0 20px;
+    }
+    .footer-text{
+        font-size: 09px;
+    }
+}
